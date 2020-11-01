@@ -26,7 +26,7 @@ def print_upper_words_start_e(words):
 
 def print_upper_words_spec(words, must_start_with):
     """ Print words including spec char, uppercased, on new line 
-    >>> print_upper_words_spec(['every', 'costco', 'Español'])
+    >>> print_upper_words_spec(['every', 'costco', 'Español', 'money'], ['c', 'E']
     """
 
     for word in words:
